@@ -9,7 +9,7 @@ import re  # 导入正则表达式库以支持验证
 df = pd.read_csv(r"D:\py project\qg\产品\产品测试集.csv")
 
 # 初始化OpenAI客户端
-client = OpenAI(api_key="sk-093359907c794153ba1cd1424f7f6705", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="YOUR_API_KEY", base_url="https://api.deepseek.com")
 
 # 定义一个函数来验证BIO格式的标注结果
 def is_valid_bio_format(text):

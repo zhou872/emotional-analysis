@@ -11,7 +11,7 @@ with open(r"D:\py project\qg\旅游2\旅游2新提示词.txt", "r", encoding="ut
 content = data.to_string(index=False)
 content2 = data2.to_string(index=False)
 
-client = OpenAI(api_key="sk-093359907c794153ba1cd1424f7f6705", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="Your API Key", base_url="https://api.deepseek.com")
 
 response = client.chat.completions.create(
     model="deepseek-reasoner",

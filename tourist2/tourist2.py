@@ -7,7 +7,7 @@ from tqdm import tqdm  # 导入tqdm库
 data = pd.read_csv(r"D:\py project\qg\旅游2\旅游2测试集.csv")
 
 # 初始化OpenAI客户端
-client = OpenAI(api_key="sk-093359907c794153ba1cd1424f7f6705", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="Your API Key", base_url="https://api.deepseek.com")
 
 
 # 定义一个函数来处理每条新闻的情感分类
